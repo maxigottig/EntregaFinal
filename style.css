@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--HEADER--*/
+
+header{
+    background: rgb(99,125,140);
+    background: linear-gradient(273deg, rgba(99,125,140,1) 0%, rgba(240,234,225,0.7903536414565826) 100%);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+
+
+header h1{
+    font-size: 50px;
+    font-weight:600;
+    color: rgba(126, 123, 122, 0.685);
+}
+
+i{
+    font-size: 50px;
+    color: rgba(126, 123, 122, 0.685);
+}
+
+header div{
+    display: flex;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 10px 15px 15px 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+header nav ul li a:hover{
+    color: rgb(94, 72, 72);
+}
+
+header nav form .boton{
+    border: 1px solid white;
+    color: white;
+    transition: 1s;
+}
+
+header nav form .boton:hover{
+    background-color: rgb(106, 130, 182);
+    color: white;
+}
+
+.fixed{
+    position: fixed;
+    right: 40px;
+    bottom: 5px;
+}
+
+.fixed img{
+    width: 70px;
+    height: 70px;
+}
+
+/*--MAIN-*/
+
+.hero{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    background: linear-gradient(rgba(75, 68, 68, 0.432),rgba(214, 116, 4, 0.5)), url("../img/fondo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 60px;
+    border: 2px solid white;
+    padding: 20px;    
+}
+
+.hero p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(48, 43, 43, 0.699);
+    padding: 5px 15px;
+    border: 1px solid rgb(87, 57, 39);
+    transition: 1s;
+}
+
+.hero a:hover{
+    color: rgba(48, 43, 43, 0.699);
+    background-color: white;
+}
+
+.objetivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo div h2{
+    font-size: 35px;
+}
+
+.objetivo p{
+    margin: 0;
+    padding: 0;
+}
+
+.objetivo div{
+    width: 50%;
+    margin: 50px;
+}
+
+.objetivo img{
+    width: 600px;
+    height: 500px;
+}
+
+
+/*KEYFRAME*/
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.recomendaciones h2{
+    font-size: 35px;
+    color: white;
+    background: rgb(156,171,180);
+    background: radial-gradient(circle, rgba(156,171,180,1) 0%, rgba(247,235,216,0.7903536414565826) 100%);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+}
+
+/*KEYFRAME*/
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.recomendaciones .funciona{
+    background: rgb(254,255,246);
+    background: linear-gradient(274deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.recomendaciones iframe{
+    width: 500px;
+    height: 350px;
+}
+
+.recomendaciones .funciona div{
+    width: 40%;
+    margin: 60px;
+}
+
+.recomendaciones .funciona div h3{
+    font-size: 40px;
+}
+
+.recomendaciones .periodo{
+    background: rgb(254,255,246);
+    background: linear-gradient(83deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+
+.recomendaciones .periodo iframe{
+    width: 500px;
+    height: 350px;
+}
+
+.recomendaciones .periodo div{
+    width: 40%;
+    margin: 60px;
+}
+
+.recomendaciones .periodo div h3{
+    font-size: 40px;
+}
+
+.recomendaciones .arma{
+    background: rgb(254,255,246);
+    background: linear-gradient(274deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.recomendaciones .arma iframe{
+    width: 500px;
+    height: 350px;
+}
+
+.recomendaciones .arma div{
+    width: 40%;
+    margin: 60px;
+}
+
+.recomendaciones .arma div h3{
+    font-size: 40px;
+}
+
+
+
+/*--CONTACTO--*/
+
+.contactate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactate div h2{
+    font-size: 35px;
+}
+
+.contactate div{
+    width: 50%;
+    margin: 50px;
+}
+
+.contactate img{
+    width: 600px;
+    height: 500px;
+}
+
+.contacto .registro{
+    background: rgb(232,238,183);
+    background: linear-gradient(279deg, rgba(232,238,183,0.7147233893557423) 0%, rgba(214,205,195,1) 76%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto h2{
+    font-size: 35px;
+    color: white;
+    background: rgb(156,171,180);
+    background: radial-gradient(circle, rgba(156,171,180,1) 0%, rgba(247,235,216,0.7903536414565826) 100%);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+}
+
+/*KEYFRAME*/
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.contacto .nombre{
+    margin: 5px;
+    padding: 5px;
+}
+.contacto .apellido{
+    margin: 5px;
+    padding: 5px
+}
+.contacto .email{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*--FOOTER--*/
+
+footer{
+    display: flex;
+    text-align: center;
+    background: rgb(247,254,194);
+    background: linear-gradient(274deg, rgba(247,254,194,0.7147233893557423) 0%, rgba(164,164,164,1) 100%);
+}
+
+
+footer h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+
+footer div img{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+
+footer div img:hover{
+    transform:scale(1.1);
+    box-shadow: 10px 10px 5px -3px rgba(133,131,131,0.75);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(133,131,131,0.75);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(133,131,131,0.75);
+}
+
+/**MEDIA QUERY**/
+
+@media screen and (max-width: 991px){
+    header .barra{
+        flex-direction: column;   
+    }
+}
+
+@media screen and (max-width: 890px){
+    
+    .recomendaciones .funciona{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .recomendaciones .periodo{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .recomendaciones .arma{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .contactate{
+        flex-direction: column;
+    }
+    .contactate div{
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 740px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 660px){
+    header{
+        flex-direction: column;
+    }
+    .hero h2{
+        font-size: 45px;
+    }
+    .hero p{
+        font-size: 20px;
+    }
+    .recomendaciones .funciona{
+        flex-direction: column;
+    }
+    .recomendaciones .funciona div{
+        width: 80%;
+        text-align: center;
+    }
+    .recomendaciones .periodo{
+        flex-direction: column;
+    }
+    .recomendaciones .periodo div{
+        width: 80%;
+        text-align: center;
+    }
+    .recomendaciones .arma{
+        flex-direction: column;
+    }
+    .recomendaciones .arma div{
+        width: 80%;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contactate img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .fixed{
+        position: fixed;
+        right: 20px;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+    /*.bienvenidos img{
+        width: 100%;
+    }*/
+    .recomendaciones .funciona iframe{
+        width: 100%;
+    }
+    .recomendaciones .periodo iframe{
+        width: 100%;
+    }
+    .recomendaciones .arma iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    
+    .recomendaciones .funciona iframe{
+        width: 100%;
+    }
+    .recomendaciones .periodo iframe{
+        width: 100%;
+    }
+    .recomendaciones .arma iframe{
+        width: 100%;
+    }
+}
+
+.Calculadora{
+    background: rgb(254,255,246);
+    background: linear-gradient(83deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
+}
+
+.Calculadora h2{
+    font-size: 35px;
+    color: white;
+    background: rgb(156,171,180);
+    background: radial-gradient(circle, rgba(156,171,180,1) 0%, rgba(247,235,216,0.7903536414565826) 100%);
+    text-align: center;
+    padding: 10px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid #242121;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #242121;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    display: block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.resultado {
+    /*margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;*/
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid #242121;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.consejos {
+    /*margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;*/
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid #242121;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.Resultado{
+    background: rgb(254,255,246);
+    background: linear-gradient(83deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
+}
