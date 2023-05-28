@@ -366,137 +366,14 @@ footer div img:hover{
     -moz-box-shadow: 10px 10px 5px -3px rgba(133,131,131,0.75);
 }
 
-/**MEDIA QUERY**/
 
-@media screen and (max-width: 991px){
-    header .barra{
-        flex-direction: column;   
-    }
-}
 
-@media screen and (max-width: 890px){
-    
-    .recomendaciones .funciona{
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-    .recomendaciones .periodo{
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-    .recomendaciones .arma{
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width:850px){
-    .contactate{
-        flex-direction: column;
-    }
-    .contactate div{
-        width: 80%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 740px){
-    header{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 660px){
-    header{
-        flex-direction: column;
-    }
-    .hero h2{
-        font-size: 45px;
-    }
-    .hero p{
-        font-size: 20px;
-    }
-    .recomendaciones .funciona{
-        flex-direction: column;
-    }
-    .recomendaciones .funciona div{
-        width: 80%;
-        text-align: center;
-    }
-    .recomendaciones .periodo{
-        flex-direction: column;
-    }
-    .recomendaciones .periodo div{
-        width: 80%;
-        text-align: center;
-    }
-    .recomendaciones .arma{
-        flex-direction: column;
-    }
-    .recomendaciones .arma div{
-        width: 80%;
-        text-align: center;
-    }
-    footer{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .contactate img{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 550px){
-    .fixed{
-        position: fixed;
-        right: 20px;
-        bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    header{
-        flex-direction: column;
-    }
-    /*.bienvenidos img{
-        width: 100%;
-    }*/
-    .recomendaciones .funciona iframe{
-        width: 100%;
-    }
-    .recomendaciones .periodo iframe{
-        width: 100%;
-    }
-    .recomendaciones .arma iframe{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 460px){
-    
-    .recomendaciones .funciona iframe{
-        width: 100%;
-    }
-    .recomendaciones .periodo iframe{
-        width: 100%;
-    }
-    .recomendaciones .arma iframe{
-        width: 100%;
-    }
-}
-
-.Calculadora{
+.data{
     background: rgb(254,255,246);
     background: linear-gradient(83deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
 }
 
-.Calculadora h2{
+.data h2{
     font-size: 35px;
     color: white;
     background: rgb(156,171,180);
@@ -594,3 +471,4 @@ button[type="submit"]:hover {
     background: rgb(254,255,246);
     background: linear-gradient(83deg, rgba(254,255,246,0.7147233893557423) 0%, rgba(238,238,238,1) 100%);
 }
+
