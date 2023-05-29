@@ -1,0 +1,7 @@
+[
+    {"nombre": "Dolar oficial", "precio": 234, "id": 1},
+    {"nombre": "Dolar MEP", "precio": 459, "id": 2},
+    {"nombre": "Dolar Contado con Liqui", "precio": 475, "id": 3},
+    {"nombre": "Dolar Cripto", "precio": 462, "id": 4},
+    {"nombre": "Dolar Blue", "precio": 488, "id": 5}
+]

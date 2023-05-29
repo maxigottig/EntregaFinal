@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+        <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--CSS-->
+    <!--<link rel="stylesheet" href="./css/style.css">-->
+    <link rel="stylesheet" href="./style.css">
+    <!--TYPE-->
+    <meta property="og:type" content="Web site">
+    <!--TITLE-->
+    <meta property="og:title" content="Plazofijeando | Tu calculadora de Plazo Fijo">
+    <!--URL-->
+    <meta property="og:url" content="">
+    <!--IMAGE-->
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <!--! FAVICON-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Plazofijeando | Tu calculadora de Plazo Fijo</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Plazofijeando</h1>
+            <!--<img src="./img/logo.png" alt=""> -->
+            <a href="./index.html"><i class="bi bi-bank2"></i></a>
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-$blue-200">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse barra" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=#>Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=#>Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=#>Objetivo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=#>Nosotros</a>
+                            </li>
+                        </ul>
+                        <!--<form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn boton" type="submit">Buscar</button>
+                            </form>-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2 class="animate__animated animate__fadeInDown">Bienvenidos a Plazofijeando</h2>
+            <p>Si vas a invertir en Plazo Fijo clickea el botón</p>
+            <a href="#data">CALCULA</a>
+        </section>
+        <section class="objetivo">
+            <div>
+                <h2>Te ayudamos con tus inversiones</h2>
+                <p>Nos mueve el compromiso y la energía en la busqueda de los mejores resultados para nuestros clientes
+                    y trabajamos para maximizarlos</p>
+            </div>
+            <img src="./img/objetivo.jpg" alt="">
+        </section>
+        <section class="recomendaciones">
+            <h2>Recomendaciones</h2>
+            <div class="funciona">
+                <div>
+                    <h3>Funcionamiento de un Plazo Fijo</h3>
+                    <p>En este video te mostramos las distintas variables que tenés que considerar a la hora de calcular
+                        cuanto te rinde tu plazo fijo.</p>
+                </div>
+                <iframe src="https://www.youtube.com/embed/b0JePHbbCEo" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="periodo">
+                <div>
+                    <h3>Periodos de colocación recomendables</h3>
+                    <p>Si tenés dudas sobre la cantidad de días a colocar para hacer rendir de la mejor forma tu plazo
+                        fijo mira esté video.</p>
+                </div>
+                <iframe src="https://www.youtube.com/embed/js2I9OoNgOs" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="arma">
+                <div>
+                    <h3>Arma un Plazo Fijo via Home Banking</h3>
+                    <p>Los bancos ofrecen constituir tu plazo fijo a través del Home Banking de la forma más rapida y
+                        sencilla. Fijate como.</p>
+                </div>
+                <iframe src="https://www.youtube.com/embed/BJ8XoxpQkYE" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+            
+            <section class="cotizaciones" id="contenedor_dolar">
+                <h2>Cotizaciones del dolar</h2>
+            </section>
+        <section id="panelSimulador" class="clear">
+            <div class="header-content-inner">
+                <h2>Simulador de Plazo Fijo</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7" id="content-form">
+                        
+                        <form id="simulador">
+                            <div class="form-group">
+                                <label for="capitalaIvertir">Capital a Invertir:</label>
+                                <input type="deposito" class="form-control" id="capital"
+                                    placeholder="(Mínimo $1000 - Máximo $1000000)" />
+                            </div>
+                            <div class="form-group">
+                                <label for="plazo">Plazo (en días):</label>
+                                <input type="number" class="form-control" id="duracion"
+                                    placeholder="(Mínimo 30 días - Máximo 365 días)" />
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="calcular" value="Borrar"
+                                    class="btn btn-primary">Calcular</button>
+                                <button type="reset" value="Limpiar formulario" class="btn btn-delete">Borrar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="list">
+                            <h3 class="title">Ventajas</h3>
+                            <div class="container-list">
+                                <ul>
+                                    <li>Alternativas flexibles de inversión.<br></li>
+                                    <li>Elegís el monto y el plazo que te resulte más conveniente.<br></li>
+                                    <li>Podrás invertir tu <strong>capital, </strong>por un plazo determinado en
+                                        días.<br></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="data" class="clear">
+            <div class="container">
+                <h2> Resultado:</h2>
+                <span id="clac_error"></span>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Canal</th>
+                            <!--<th>Sucursal</th>-->
+                            <th>Electrónico</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Plazo</td>
+                            <!--<!--<td class="dest">No Aplica</td>-->
+                            <td class="dest" id="dias"></td>
+                        </tr>
+                        <tr>
+                            <td>Capital</td>
+                            <!--<!--<td class="dest">No Aplica</td>-->
+                            <td class="dest" id="monto"></td>
+                        </tr>
+                        <tr>
+                            <td>Intereses ganados</td>
+                            <!--<td class="dest">No Aplica</td>-->
+                            <td class="dest" id="calc_interes"></td>
+                        </tr>
+                        <tr>
+                            <td>Monto total</td>
+                            <!--<!--<td class="dest">No Aplica</td>-->
+                            <td class="dest" id="calc_result"></td>
+                        </tr>
+                        <tr>
+                            <td>TNA</td>
+                            <!--<td class="dest">No Aplica</td>-->
+                            <td class="dest" id="dest">97%</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+
+
+    <script>
+        $('#calcular').click(function () {
+            var deposito = $('#capital').val();
+            var tna = 97 / 100;
+            var duracion = $('#duracion').val();
+
+
+            if (deposito != '' && tna != '' && duracion >= '30' && duracion <= '365') {
+                var cf = deposito * (1 + tna * (duracion / 365));
+                var interes = cf - deposito;
+                if ((deposito >= 1000 && deposito <= 1000000) && (duracion >= 30 && duracion <= 365)) {
+                    $('#calc_result').text('$' + cf.toFixed(2));
+                    $('#calc_interes').text('$' + interes.toFixed(2));
+                    $('#tna').text(tna.toFixed(2) + "%");
+                    $('#dias').text(duracion + ' dias');
+                    $('#monto').text('$' + deposito);
+                    $('#clac_error').text('');
+                    $('#duracion').removeClass('danger');
+                    $('#capital').removeClass('danger');
+                }
+
+                else {
+                    $('#capital').addClass('danger');
+                    $('#clac_error').text('Ingrese valor mayor a $1000 y menor a $1000000.');
+
+                }
+
+            } else {
+                $('#clac_error').text('Ingrese un valor de días mayor a 30 y menor o igual a 365');
+                $('#duracion').addClass('danger');
+
+            }
+                
+        });
+    </script>
+    <script>
+        const contenedor_dolar = document.getElementById("contenedor_dolar")
+
+            fetch('./cotizacion-dolar.json')
+                .then(response => response.json())
+                .then(listaProductos => {
+
+                    listaProductos.forEach(dolar => {
+
+                        contenedor_dolar.innerHTML += `
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/dolar.jpg" class="img-fluid rounded-start" alt="">
+                                </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">${dolar.nombre}</h5>
+                                                <p class="card-text">${dolar.precio}</p>
+                                                <p class="card-text"><small class="text-body-secondary">Cotización al 28/05/2023</small></p>
+                                            </div>
+                                        </div>
+                                </div>  
+                            </div>
+        `
+                    });
+                })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </main>
+    <div class="fixed">
+        <a href=#><img src="./img/flecha.png" alt=""></a>
+    </div>
+    <footer id="pie">
+        <div>
+            <h2>Redes sociales</h2>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram1.png"
+                    alt="Logo Instagram"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook1.png"
+                    alt="Logo Facebook"></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><img src="./img/linkedin1.png" alt="Logo linkedin"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
