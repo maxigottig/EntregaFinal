@@ -442,8 +442,8 @@ button[type="submit"]:hover {
 .container-list ul li { margin-bottom: 20px;}
 .form-control {border-radius: 5px;border: 1px solid #ccc;padding: 5px;margin: 10px 0px;     display: block; width: 90%; min-height: 30px;}
 .container {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
